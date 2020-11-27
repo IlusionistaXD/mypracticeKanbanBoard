@@ -1,0 +1,28 @@
+{
+"columns": [
+    {
+     "name": "Todo",
+     "cards":[
+         {
+             "name": "Card A"
+         }
+     ] 
+    },
+    {
+        "name": "Doing",
+        "cards":[
+            {
+                "name": "Card B"
+            }
+        ] 
+    },
+    {
+        "name": "Done",
+        "cards":[
+            {
+                "name": "Card C"
+            }
+        ] 
+    }
+]
+}
