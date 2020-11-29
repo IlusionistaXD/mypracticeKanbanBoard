@@ -9,24 +9,23 @@ class CardForm extends Component{
         }
     }
 
+    //vamos actualizando el valor de state observando que valor introduce el usuario
     onChange = (e)=> {
-        console.log(e.target.value);
+        //console.log(e.target.value);
         this.setState({
             nameCard: e.target.value
         })
     }
 
+    //Agregamos la nueva tarea
     onClick = (e) => {
-        console.log(e);
         this.props.insertCard(this.state.nameCard);
     }
 
     render(){
-        console.log(this.props);
-
         return  (<div className="inputCard">
-                    <input type="text" onChange={this.onChange} placeholder="Insert a work Item"/>
-                    <button type="button" onClick={this.onClick}>Add Work Item</button>
+                    <input type="text" onChange={this.onChange} placeholder="Insertar nueva tarea"/>
+                    <button type="button" onClick={this.onClick}>Agregar Tarea</button>
                 </div>)
     }
 

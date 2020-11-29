@@ -1,26 +1,26 @@
 {
 "columns": [
     {
-     "name": "Todo",
-     "cards":[
-         {
-             "name": "Card A"
-         }
-     ] 
-    },
-    {
-        "name": "Doing",
+        "name": "Por Empezar",
         "cards":[
             {
-                "name": "Card B"
+                "name": "Tarea A"
             }
         ] 
     },
     {
-        "name": "Done",
+        "name": "En progreso",
         "cards":[
             {
-                "name": "Card C"
+                "name": "Tarea B"
+            }
+        ] 
+    },
+    {
+        "name": "Hechas",
+        "cards":[
+            {
+                "name": "Tarea C"
             }
         ] 
     }
